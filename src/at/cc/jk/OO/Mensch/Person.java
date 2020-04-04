@@ -30,7 +30,35 @@ public class Person {
         System.out.println("Birthday:\t\t\t\t" + this.birthday);
     }
 
-    public void calculateAge() {
-        System.out.println("The age is:" + "------------------ Calculaton is missing!!!!");
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getFamilyName() {
+        return familyName;
+    }
+
+    public void setFamilyName(String familyName) {
+        this.familyName = familyName;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+    public void setHeight(float height) {
+        this.height = height;
     }
 }

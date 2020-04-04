@@ -22,7 +22,6 @@ public class Main {
         Person p1 = new Person("Johannes", "Küng", "3.9.1983", 185, 70);
 
         p1.printPersonData();
-        p1.calculateAge();
 
         Athlete a1 = new Athlete("Hans", "Grabherr", "4.5.2000", 80, 180,
                 70, 22);
