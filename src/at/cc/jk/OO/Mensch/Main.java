@@ -96,7 +96,7 @@ public class Main {
 
         sportsClubFcHauDaneben.addAthlete(a1); // auch der Athlete kann dem Sportsclub angefügt werden.
 
-        sportsClubFcHauDaneben.printSporsClubData();
+        sportsClubFcHauDaneben.printSportsClubData();
 
     }
 }

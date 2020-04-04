@@ -18,7 +18,7 @@ public class SportsClub extends CompanyDefault {
         this.athletes.add(athlete);
     }
 
-    public void printSporsClubData(){
+    public void printSportsClubData(){
         System.out.println("####################################");
         System.out.println("###### Print sports club data ######");
         System.out.println("####################################");
