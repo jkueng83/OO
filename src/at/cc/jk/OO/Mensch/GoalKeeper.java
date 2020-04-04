@@ -5,9 +5,14 @@ public class GoalKeeper extends SoccerPlayer {
     private float jumpingHeight;
     private float jumpingWith;
 
+    public GoalKeeper(String firstName, String familyName, String birthday, float weight, float height,
+                      int fitnessLevel, int weekTrainingHours, float maxSpeed, int power, float jumpingHeight,
+                      float jumpingWith) {
 
-    public GoalKeeper(String firstName, String familyName, String birthday, float weight, float height) {
-        super(firstName, familyName, birthday, weight, height);
+        super(firstName, familyName, birthday, weight, height, fitnessLevel, weekTrainingHours, maxSpeed, power);
+        this.jumpingHeight = jumpingHeight;
+        this.jumpingWith = jumpingWith;
+
     }
 
     public float getJumpingHeight() {
@@ -28,12 +33,11 @@ public class GoalKeeper extends SoccerPlayer {
 
     @Override
     public void printAthleteData() {
-        System.out.println("I am a goal keeper!?!?!");
+        System.out.println("I am a goal keeper!!!!\t- Father - Child - Child - Child Object");
         super.printAthleteData();
-        System.out.println("Jumping hight:\t" + this.jumpingHeight + " m");
-        System.out.println("Jumping with:\t" + this.jumpingWith + " m");
+        System.out.println("Jumping hight:\t\t\t" + this.jumpingHeight + " m");
+        System.out.println("Jumping with:\t\t\t" + this.jumpingWith + " m");
 
     }
-
 
 }

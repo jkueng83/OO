@@ -17,16 +17,17 @@ public class Person {
     }
 
     public void printName() {
-        System.out.println("First name:\t\t" + this.firstName);
-        System.out.println("Family name:\t" + this.familyName);
+        System.out.println("First name:\t\t\t\t" + this.firstName);
+        System.out.println("Family name:\t\t\t" + this.familyName);
 
     }
 
     public void printPersonData() {
+        System.out.println("I am a Person!\t\t\t- Father Object");
         printName();
-        System.out.println("Height:\t\t\t" + this.height);
-        System.out.println("Weight;\t\t\t" + this.weight);
-        System.out.println("Birthday:\t\t" + this.birthday);
+        System.out.println("Height:\t\t\t\t\t" + this.height + " cm");
+        System.out.println("Weight:\t\t\t\t\t" + this.weight + " kg - My weight is great!");
+        System.out.println("Birthday:\t\t\t\t" + this.birthday);
     }
 
     public void calculateAge() {

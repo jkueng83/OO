@@ -6,8 +6,11 @@ public class Athlete extends Person {
     private int weekTrainingHours;
 
 
-    public Athlete(String firstName, String familyName, String birthday, float weight, float height) {
+    public Athlete(String firstName, String familyName, String birthday, float weight, float height , int fitnessLevel,
+                   int weekTrainingHours) {
         super(firstName, familyName, birthday, weight, height);
+        this.fitnessLevel = fitnessLevel;
+        this.weekTrainingHours = weekTrainingHours;
     }
 
     public int getFitnessLevel() {
@@ -27,9 +30,10 @@ public class Athlete extends Person {
     }
 
     public void printAthleteData() {
+        System.out.println("I am a Athlete!!\t\t- Father - Child Object");
         printPersonData();
-        System.out.println("Fitness level:\t" + this.fitnessLevel);
-        System.out.println("Training h/week:\t" + this.weekTrainingHours);
+        System.out.println("Fitness level:\t\t\t" + this.fitnessLevel + " %");
+        System.out.println("Training h/week:\t\t" + this.weekTrainingHours);
     }
 
 }
