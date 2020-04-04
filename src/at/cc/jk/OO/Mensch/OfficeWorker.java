@@ -5,7 +5,6 @@ public class OfficeWorker extends Person {
     private String department;
     private int personalNumber;
 
-
     public OfficeWorker(String firstName, String familyName, String birthday, float weight, float height,
                         String department, int personalNumber) {
 

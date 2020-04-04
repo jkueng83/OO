@@ -1,6 +1,7 @@
 package at.cc.jk.OO.Mensch;
 
 public class CompanyDefault {
+
     private String name;
     private String address;
     private int foundingYear;
@@ -32,4 +33,5 @@ public class CompanyDefault {
         System.out.println("Address:\t\t\t\t" + this.address);
         System.out.println("Founding Year:\t\t\t" + this.foundingYear);
     }
+
 }

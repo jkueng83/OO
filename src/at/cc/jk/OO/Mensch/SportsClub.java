@@ -7,8 +7,8 @@ public class SportsClub extends CompanyDefault {
 
     private List<Athlete> athletes;
 
-
     public SportsClub(String name, String address, int foundingYear) {
+
         super(name, address, foundingYear);
 
         this.athletes = new ArrayList<>();

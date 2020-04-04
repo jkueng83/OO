@@ -1,12 +1,12 @@
 package at.cc.jk.OO.Mensch;
 
 public class Person {
+
     private String firstName;
     private String familyName;
     private String birthday;
     private float weight;
     private float height;
-
 
     public Person(String firstName, String familyName, String birthday, float weight, float height) {
         this.firstName = firstName;
@@ -31,8 +31,6 @@ public class Person {
     }
 
     public void calculateAge() {
-
         System.out.println("The age is:" + "------------------ Calculaton is missing!!!!");
-
     }
 }

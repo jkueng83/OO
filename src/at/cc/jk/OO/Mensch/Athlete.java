@@ -5,7 +5,6 @@ public class Athlete extends Person {
     private int fitnessLevel;
     private int weekTrainingHours;
 
-
     public Athlete(String firstName, String familyName, String birthday, float weight, float height , int fitnessLevel,
                    int weekTrainingHours) {
         super(firstName, familyName, birthday, weight, height);

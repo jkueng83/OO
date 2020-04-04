@@ -43,4 +43,5 @@ public class SoccerPlayer extends Athlete {
         System.out.println("My max speed is:\t\t" + this.maxSpeed + " m/s");
         System.out.println("My power is:\t\t\t" + this.power + " %");
     }
+
 }
