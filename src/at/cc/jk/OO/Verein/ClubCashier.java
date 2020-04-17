@@ -1,8 +1,8 @@
 package at.cc.jk.OO.Verein;
 
-public class Cashier extends ClubMember {
+public class ClubCashier extends ClubMember {
 
-    public Cashier(String firstName, String familyName, String birthday, float weight, float height) {
+    public ClubCashier(String firstName, String familyName, String birthday, float weight, float height) {
         super(firstName, familyName, birthday, weight, height);
         this.membershipFee = 100.00;
     }

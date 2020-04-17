@@ -16,12 +16,12 @@ public class Main {
 
         SportsClup2 fcKoblach = new SportsClup2("FC Koblach", "Siedlung X",1955) ;
 
-        ClubManagement managerKlausBolter = new ClubManagement("Klaus","Bolter",
+        ClubManager managerKlausBolter = new ClubManager("Klaus","Bolter",
                 "7.7.1970",75,182);
 
-        Cashier cashierManuelaSpar = new Cashier("Manuele", "Spar", "9.5.1985",60,
+        ClubCashier cashierManuelaSpar = new ClubCashier("Manuela", "Spar", "9.5.1985",60,
                 175);
-        Reporter reporterFranzWillberichten = new Reporter("Franz", "Willberichten",
+        ClubReporter reporterFranzWillberichten = new ClubReporter("Franz", "Willberichten",
                 "6.6.2000", 110,180);
 
         ClubMember c1 = new ClubMember("Manuel", "Bösch","7.4.1995", 80,
@@ -39,8 +39,7 @@ public class Main {
         fcKoblach.printAllClubMembers();
 
         System.out.println("Der gesamt Jahresbeitrag beträgt: " + fcKoblach.getTotalMembershipFee());
-
-
+        fcKoblach.printMembershipFee();
 
     }
 }
