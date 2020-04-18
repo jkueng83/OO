@@ -1,0 +1,3 @@
+package at.cc.jk.OO.Rechner;
+
+public enum CALCULATIONTYPE {ADDITION,SUBTRACTION, MULTIPLICATION, DIVISION}
