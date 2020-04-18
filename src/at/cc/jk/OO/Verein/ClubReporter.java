@@ -12,4 +12,12 @@ public class ClubReporter extends ClubMember {
         super.functionOfMember();
         System.out.println("I am a reporter.");
     }
+
+    public void reportWeWonTheGame(){
+        System.out.println("We won the game!");
+    }
+
+    public void reportWeLostTheGame(){
+        System.out.println("We lost the game!");
+    }
 }

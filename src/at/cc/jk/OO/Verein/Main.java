@@ -41,5 +41,8 @@ public class Main {
         System.out.println("Der gesamt Jahresbeitrag beträgt: " + fcKoblach.getTotalMembershipFee());
         fcKoblach.printMembershipFee();
 
+        reporterFranzWillberichten.reportWeWonTheGame();
+        reporterFranzWillberichten.reportWeLostTheGame();
+
     }
 }
